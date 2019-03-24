@@ -1,0 +1,108 @@
+/*左侧内容部分*/
+.main-box h1{
+	font-size: 2.2rem;
+	letter-spacing: 2px;
+	margin-bottom:15px;
+	line-height: 26px;
+}
+.main-box h1 a,.mian-page-box a{
+	color: #424242;
+}
+.main-box h1 a:hover,.main-time a:hover,.main-txt a:hover,.mian-page-box a:hover{
+	color: #009688;
+}
+.main-time{
+	line-height: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	color: #888;
+}
+.main-time a{
+	font-weight: bold;
+	color: #888;
+}
+.main-time span{
+	color: #009688;
+	margin:0 3px;
+}
+.main-time b{
+	font-size: normal;
+}
+.main-txt{
+	padding-top:20px;
+	border-top:2px solid #009688;
+	text-align: justify;
+}
+.main-txt a{
+	color: #78909c;
+}
+.main-txt img{
+	width: 100%;
+}
+.main-txt-img{
+	width: 100%;
+}
+.main-txt p{
+	margin-top:0;
+}
+.main-txt p,.main-txt ul{
+	font-size: 1.6rem;
+	color: #424242;
+	line-height: 26px;
+}
+.main-txt ul li{
+	list-style: disc;
+	margin-left: 30px;
+}
+.main-box button{
+	width: 80px;
+	height: 30px;
+	background: none;
+	border:none;
+	border-bottom: 1px solid #009688;
+}
+.main-box button a{
+	font-size: 1.6rem;
+	color: #424242;
+	display:inline-block;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+}
+.main-box button a:hover{
+	color: #fff;
+	background: #009688;
+}
+
+.main-page{
+	height: 60px;
+	line-height:60px;
+	padding-left: 15px;
+	text-align: center;
+}
+.mian-page-box{
+	margin:0 auto;
+}
+.mian-page-box aside{
+	float: left;
+	margin:0 5px;
+	cursor: pointer;
+	user-select: none;
+}
+.mian-page-box ul li{
+	float: left;
+	margin:0 5px;
+	cursor: pointer;
+}
+.mian-page-box ul li:hover{
+	color:#009688;
+}
+.page-active{
+	font-weight: bold;
+}
+.mian-page-box ul .page-active:hover{
+	color: #222;
+}
+
+
+
